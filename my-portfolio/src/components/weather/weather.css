@@ -1,0 +1,12 @@
+.weather {
+  background: url("./weatherImages/weather.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index:-1;
+}
+
+@media (max-width: 767px) {
+  .temp {
+    flex-direction: column;
+  }
+}
