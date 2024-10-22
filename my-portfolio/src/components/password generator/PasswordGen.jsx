@@ -53,7 +53,7 @@ function PasswordGenerator() {
               Copy
             </button>
           </div>
-          <div className="flex py-5 justify-center text-center sm:flex-row sm:w-96  lg:flex-row md:flex-row space-x-4 w-72 flex-col items-center font-semibold character">
+          <div className="flex py-5 justify-center text-center sm:flex-row sm:w-96   space-x-4 w-72 flex-col sm:items-center  font-semibold character ">
            
             <div className="length">
               <input
@@ -66,6 +66,7 @@ function PasswordGenerator() {
             <div className="length">
               <input
                 type="checkbox"
+                // className="w-14"
                 defaultChecked={character}
                 onChange={(e) => setCharacter((prev) => !prev)}
               />
@@ -77,6 +78,7 @@ function PasswordGenerator() {
                 min="6"
                 max="20"
                 value={length}
+                className="w-14"
                 onChange={(e) => setLength(e.target.value)}
               />
               <label>Length:{length}</label>

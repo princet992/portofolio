@@ -19,12 +19,12 @@ function WeatherDetails({
     <>
    
       <div className="weather mx-auto  max-h-full text-white py-10">
-     <h2 className="text-slate-900 bg-clip-text text-center text-xl md:text-3xl lg:text-3xl xl:text-3xl font-bold me-8">WEATHER FORECAST</h2>
+     <h2 className="text-yellow-400 bg-clip-text text-center text-xl md:text-3xl lg:text-3xl xl:text-3xl font-bold me-8">WEATHER FORECAST</h2>
 
        <main className="text-center">
        <div className="input-box flex justify-center items-center gap-5 py-5 px-2">
           <input type="text" ref={inputRef}
-          className="px-5 py-2 rounded-lg w-80 max-w-screen focus:outline-none bg-slate-100 text-black"
+          className="px-5 py-2 rounded-lg md:w-80 max-w-screen focus:outline-none bg-slate-100 text-black"
           placeholder="Enter city name..."
            />
           <img

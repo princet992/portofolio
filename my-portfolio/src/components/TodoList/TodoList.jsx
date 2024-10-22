@@ -88,7 +88,7 @@ const handleCheck = (itemId) =>{
 
   return (
     <>
-      <div className=" pt-5">
+      <div className=" pt-5 ">
       <img src={img1} alt="" className="w-[50px] sm:w-[70px] lg:w-[75px] mx-auto bg-slate-200 rounded-full"/>
       <h2 className="text-xl font-bold text-center text-white">Enter your todo tasks here..</h2>
         <main className="w-64  pt-3 mx-auto sm:w-80">
@@ -109,7 +109,7 @@ const handleCheck = (itemId) =>{
               </button>
             ) : (
               <span
-                className="bg-yellow-300 text-blue-600 font-extrabold rounded-full inline-block   text-xl hover:bg-yellow-600 hover:text-white items-center "
+                className="bg-yellow-300 text-blue-600 font-extrabold rounded-full inline-block p-2  text-xl hover:bg-yellow-600 hover:text-white items-center "
                 onClick={addTasks}
               >
                 <AiFillEdit />
